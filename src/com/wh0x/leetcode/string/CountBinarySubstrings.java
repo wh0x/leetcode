@@ -17,7 +17,7 @@ import java.util.List;
 public class CountBinarySubstrings {
     public int countBinarySubstrings(String s) {
         //统计连续数字的个数
-        //TODO:换一个更优雅的写法
+        //TODO:换一个更优雅的写法93 a
         if(s.length() == 1){
             return 0;
         }
