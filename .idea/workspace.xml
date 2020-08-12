@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b5d7d4-4c8a-4da1-827c-6df68864fadd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wh0x/leetcode/dfs/cConeGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wh0x/leetcode/string/CountBinarySubstrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wh0x/leetcode/string/CountBinarySubstrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,14 +74,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="README" value="1" />
-          <entry key="java" value="134" />
-          <entry key="kt" value="4" />
+          <entry key="java" value="137" />
+          <entry key="kt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="134" />
-          <entry key="Kotlin" value="4" />
+          <entry key="JAVA" value="137" />
+          <entry key="Kotlin" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -89,13 +89,15 @@
         <counts>
           <entry key="README" value="32" />
           <entry key="dummy" value="8" />
-          <entry key="java" value="48041" />
+          <entry key="java" value="48602" />
+          <entry key="kt" value="1" />
           <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48041" />
+          <entry key="JAVA" value="48602" />
+          <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="93" />
         </counts>
       </usages-collector>
@@ -103,15 +105,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/dfs/MaxDepth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/twopointer/IsSubsequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,11 +156,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/dfs/cConeGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,6 +213,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -226,9 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/InorderTraversalSolution.java" />
-        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/PostorderTraversalSolution.java" />
-        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/LevelOrderSolution.java" />
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/ZigZagLevelOrder.java" />
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/RightSideViewSolution.java" />
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/Node.java" />
@@ -277,6 +280,9 @@
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/backtracking/RestoreIpAddresses.java" />
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/string/CountBinarySubstrings.java" />
         <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java" />
+        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/CloneGraph.kt" />
+        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/CloneGraph.java" />
+        <option value="$PROJECT_DIR$/src/com/wh0x/leetcode/dfs/cConeGraph.java" />
       </list>
     </option>
   </component>
@@ -340,6 +346,13 @@
               <item name="leetcode_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -352,7 +365,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597160657100" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597248240892" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -441,7 +454,7 @@
       <workItem from="1596119934126" duration="2871000" />
       <workItem from="1596466325972" duration="1647000" />
       <workItem from="1596988252515" duration="5539000" />
-      <workItem from="1597157805444" duration="2836000" />
+      <workItem from="1597157805444" duration="5646000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1578118457393</created>
@@ -489,7 +502,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236565000" />
+    <option name="totallyTimeSpent" value="239375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -578,27 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/binarytree/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/backtracking/PermutationStr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/interview/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/dp/MinDistanceSolution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -922,10 +914,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/CloneGraph.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/CloneGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/bfs/Solve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="91" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wh0x/leetcode/dfs/cConeGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
